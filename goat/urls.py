@@ -17,7 +17,13 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
+#Something here is different.
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('nfldata.urls')),
 ]
+
+#This is changed.
+
+#So is this.
