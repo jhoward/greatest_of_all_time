@@ -1,0 +1,36 @@
+<head>
+  {% load staticfiles %}
+  <link rel="stylesheet" type="text/css" href="{% static "nfldata/style.css" %}">
+</head>
+
+<body>
+  <div class="top_all">
+    <div class="top_left">
+      <h1>
+        TheGoat
+      </h1>
+    </div>
+
+    <div class="top_right">
+      Who is the greatest.
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="body_left">
+      Hello world.
+    </div>
+
+    <div class="body_right">
+      <ul>
+      {% for player in players %}
+          <li>{{ player.name }}</li>
+      {% endfor %}
+      </ul>
+      abcdef
+      hello world
+
+      hello world.
+    </div>
+  </div>
+</body>

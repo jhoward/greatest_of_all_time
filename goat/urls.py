@@ -23,7 +23,3 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('nfldata.urls')),
 ]
-
-#This is changed.
-
-#So is this.

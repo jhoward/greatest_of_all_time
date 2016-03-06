@@ -1,0 +1,35 @@
+.top_all {
+  height: 50px;
+  line-height: 20px;
+  border:solid #000;
+  border-width: 0px 0px 1px 0px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.top_left {
+  float: left;
+  vertical-align: text-bottom;
+}
+
+.top_right {
+  float: right;
+  vertical-align: bottom;
+}
+
+.body{
+  max-width: 580px;
+  min-width: 200px;
+}
+
+.body_left {
+  float: left;
+  min_width: 100px;
+  width: 20%;
+}
+
+.body_right {
+  float: left;
+  border:solid #000;
+  border-width: 0px 0px 0px 1px;
+}
