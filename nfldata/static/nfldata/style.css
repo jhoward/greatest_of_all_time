@@ -1,35 +1,66 @@
-.top_all {
+body {
+  background-color: #ffffff;
+  font-family: "ProximaNovaCond",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 10;
+  color: #000000;
+  line-height: 24px;
+}
+
+.top{
   height: 50px;
-  line-height: 20px;
-  border:solid #000;
+  border: solid #888888;
   border-width: 0px 0px 1px 0px;
-  max-width: 600px;
-  min-width: 300px;
 }
 
-.top_left {
+/*
+.page{
+  min-width: 64em;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+
+  margin: 0 auto;
+  max-width: 63rem;
+  width: 100%;
+  max-width: 1336px;
+}
+
+.sidebar {
+  display: block;
+  width: 33.5%;
   float: left;
-  vertical-align: text-bottom;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  border-right: 1px solid #e5e5e5;
+
+  padding: 0 1.12rem;
+  position: relative;
+*/
+  /*position: relative;*/
+  /*bottom: 0;
+  z-index: 2;
+  top: 0;
 }
 
-.top_right {
+.main {
+  width: 66.5%;
   float: right;
-  vertical-align: bottom;
-}
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  border-left: 1px solid #e5e5e5;
+  left: -1px;
 
-.body{
-  max-width: 580px;
-  min-width: 200px;
-}
-
-.body_left {
-  float: left;
-  min_width: 100px;
-  width: 20%;
-}
-
-.body_right {
-  float: left;
-  border:solid #000;
-  border-width: 0px 0px 0px 1px;
-}
+  padding: 0 1.12rem;
+  position: relative;
+}*/
